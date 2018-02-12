@@ -1,0 +1,28 @@
+{
+  "name": "viewcom",
+  "version": "1.0.1",
+  "description": "view the computer information, including cpu, memory, ipv4, ipv6 etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiwiyan/viewcom.git"
+  },
+  "keywords": [
+    "cpu",
+    "ipv4",
+    "ipv6",
+    "mac"
+  ],
+  "author": "kiwiyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiwiyan/viewcom/issues"
+  },
+  "homepage": "https://github.com/kiwiyan/viewcom#readme",
+  "bin": {
+    "viewcom": "bin/viewcom"
+  }
+}

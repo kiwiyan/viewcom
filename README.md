@@ -3,10 +3,14 @@ View the computer information, including cpu, memory, ipv4, ipv6 etc.
 
 ## install
 ```
-npm install viewcom
+npm install viewcom -g
 ```
-
-## get computer information
+## use
+run the command:
+```
+$ viewcom
+```
+## computer information
 ```js
 { 
     cpu: 'Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz',
