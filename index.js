@@ -25,7 +25,7 @@ function getLocalnet (net) {
   return net[netName];
 }
 
-console.log('\x1B[33m%s\x1b[0m', 'Computer Info:', {
+let comInfo = {
   cpu,
   memory,
   memoryUseRatio,
@@ -36,4 +36,8 @@ console.log('\x1B[33m%s\x1b[0m', 'Computer Info:', {
   arch,
   hostname,
   username
-})
+};
+console.log('\x1B[33m%s\x1b[0m', 'Computer Info:', comInfo);
+module.exports = comInfo;
+
+
