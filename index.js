@@ -36,4 +36,4 @@ console.log('\x1B[33m%s\x1b[0m', 'Computer Info:', {
   arch,
   hostname,
   username
-})
+});
